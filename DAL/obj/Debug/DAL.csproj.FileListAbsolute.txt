@@ -1,0 +1,15 @@
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K\DAL\bin\Debug\DAL.dll
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K\DAL\bin\Debug\DAL.pdb
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K\DAL\bin\Debug\BE.dll
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K\DAL\bin\Debug\MongoDB.Bson.dll
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K\DAL\bin\Debug\MongoDB.Driver.Core.dll
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K\DAL\bin\Debug\MongoDB.Driver.dll
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K\DAL\bin\Debug\MongoDB.Driver.GridFS.dll
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K\DAL\bin\Debug\BE.pdb
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K\DAL\bin\Debug\MongoDB.Bson.xml
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K\DAL\bin\Debug\MongoDB.Driver.xml
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K\DAL\bin\Debug\MongoDB.Driver.Core.xml
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K\DAL\bin\Debug\MongoDB.Driver.GridFS.xml
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K\DAL\obj\Debug\DAL.dll
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K\DAL\obj\Debug\DAL.pdb

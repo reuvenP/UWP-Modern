@@ -1,0 +1,7 @@
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K\BE\bin\Debug\BE.dll
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K\BE\bin\Debug\BE.pdb
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K\BE\bin\Debug\MongoDB.Bson.dll
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K\BE\bin\Debug\MongoDB.Bson.xml
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K\BE\obj\Debug\BE.csprojResolveAssemblyReference.cache
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K\BE\obj\Debug\BE.dll
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K\BE\obj\Debug\BE.pdb

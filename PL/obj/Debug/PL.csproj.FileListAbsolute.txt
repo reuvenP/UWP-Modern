@@ -1,0 +1,76 @@
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K\PL\bin\Debug\PL.exe.config
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K\PL\bin\Debug\PL.exe
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K\PL\bin\Debug\PL.pdb
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K\PL\bin\Debug\BE.dll
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K\PL\bin\Debug\BL.dll
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K\PL\bin\Debug\MongoDB.Bson.dll
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K\PL\bin\Debug\DAL.dll
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K\PL\bin\Debug\MongoDB.Driver.dll
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K\PL\bin\Debug\MongoDB.Driver.Core.dll
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K\PL\bin\Debug\BE.pdb
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K\PL\bin\Debug\BL.pdb
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K\PL\bin\Debug\MongoDB.Bson.xml
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K\PL\bin\Debug\DAL.pdb
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K\PL\bin\Debug\MongoDB.Driver.xml
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K\PL\bin\Debug\MongoDB.Driver.Core.xml
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K\PL\obj\Debug\PL.csprojResolveAssemblyReference.cache
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K\PL\obj\Debug\MainWindow.g.cs
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K\PL\obj\Debug\Views\BookDetailsView.g.cs
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K\PL\obj\Debug\Views\MainView.g.cs
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K\PL\obj\Debug\App.g.cs
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K\PL\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K\PL\obj\Debug\PL_MarkupCompile.cache
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K\PL\obj\Debug\PL_MarkupCompile.lref
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K\PL\obj\Debug\App.baml
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K\PL\obj\Debug\MainWindow.baml
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K\PL\obj\Debug\Views\BookDetailsView.baml
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K\PL\obj\Debug\Views\MainView.baml
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K\PL\obj\Debug\PL.g.resources
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K\PL\obj\Debug\PL.Properties.Resources.resources
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K\PL\obj\Debug\PL.csproj.GenerateResource.Cache
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K\PL\obj\Debug\PL.exe
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K\PL\obj\Debug\PL.pdb
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K\PL\obj\Debug\Views\CartView.g.cs
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K\PL\obj\Debug\Views\CartView.baml
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K\PL\obj\Debug\Views\SubmitView.g.cs
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K\PL\obj\Debug\Views\SubmitView.baml
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K - MahApps.Metro\PL\bin\Debug\PL.exe.config
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K - MahApps.Metro\PL\obj\Debug\PL.exe
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K - MahApps.Metro\PL\obj\Debug\PL.pdb
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K - MahApps.Metro\PL\bin\Debug\PL.exe
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K - MahApps.Metro\PL\bin\Debug\PL.pdb
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K - MahApps.Metro\PL\bin\Debug\BE.dll
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K - MahApps.Metro\PL\bin\Debug\BL.dll
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K - MahApps.Metro\PL\bin\Debug\MahApps.Metro.dll
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K - MahApps.Metro\PL\bin\Debug\MongoDB.Bson.dll
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K - MahApps.Metro\PL\bin\Debug\System.Windows.Interactivity.dll
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K - MahApps.Metro\PL\bin\Debug\DAL.dll
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K - MahApps.Metro\PL\bin\Debug\MongoDB.Driver.dll
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K - MahApps.Metro\PL\bin\Debug\MongoDB.Driver.Core.dll
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K - MahApps.Metro\PL\bin\Debug\BE.pdb
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K - MahApps.Metro\PL\bin\Debug\BL.pdb
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K - MahApps.Metro\PL\bin\Debug\MahApps.Metro.pdb
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K - MahApps.Metro\PL\bin\Debug\MahApps.Metro.xml
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K - MahApps.Metro\PL\bin\Debug\MongoDB.Bson.xml
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K - MahApps.Metro\PL\bin\Debug\DAL.pdb
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K - MahApps.Metro\PL\bin\Debug\MongoDB.Driver.xml
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K - MahApps.Metro\PL\bin\Debug\MongoDB.Driver.Core.xml
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K - MahApps.Metro\PL\obj\Debug\PL.csprojResolveAssemblyReference.cache
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K - MahApps.Metro\PL\obj\Debug\MainWindow.g.cs
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K - MahApps.Metro\PL\obj\Debug\Views\BookDetailsView.g.cs
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K - MahApps.Metro\PL\obj\Debug\Views\CartView.g.cs
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K - MahApps.Metro\PL\obj\Debug\Views\MainView.g.cs
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K - MahApps.Metro\PL\obj\Debug\Views\SubmitView.g.cs
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K - MahApps.Metro\PL\obj\Debug\App.g.cs
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K - MahApps.Metro\PL\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K - MahApps.Metro\PL\obj\Debug\PL_MarkupCompile.cache
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K - MahApps.Metro\PL\obj\Debug\PL_MarkupCompile.lref
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K - MahApps.Metro\PL\obj\Debug\App.baml
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K - MahApps.Metro\PL\obj\Debug\MainWindow.baml
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K - MahApps.Metro\PL\obj\Debug\Views\BookDetailsView.baml
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K - MahApps.Metro\PL\obj\Debug\Views\CartView.baml
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K - MahApps.Metro\PL\obj\Debug\Views\MainView.baml
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K - MahApps.Metro\PL\obj\Debug\Views\SubmitView.baml
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K - MahApps.Metro\PL\obj\Debug\PL.g.resources
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K - MahApps.Metro\PL\obj\Debug\PL.Properties.Resources.resources
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K - MahApps.Metro\PL\obj\Debug\PL.csproj.GenerateResource.Cache

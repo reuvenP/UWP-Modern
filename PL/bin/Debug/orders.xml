@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<orders>
+  <order>
+    <name>a</name>
+    <address>b</address>
+    <mail>c</mail>
+    <phone>d</phone>
+    <books>
+      <book>
+        <title>Title 1</title>
+        <author>Author 1</author>
+        <pages>450</pages>
+        <year>2002</year>
+      </book>
+      <book>
+        <title>Title 1</title>
+        <author>Author 1</author>
+        <pages>450</pages>
+        <year>2002</year>
+      </book>
+    </books>
+  </order>
+  <order>
+    <name>Reuven</name>
+    <address>Hammer 14</address>
+    <mail>reuvenhn@gmail.com</mail>
+    <phone>0583823232</phone>
+    <books>
+      <book>
+        <title>Title 4</title>
+        <author>Author 4</author>
+        <pages>743</pages>
+        <year>2015</year>
+      </book>
+    </books>
+  </order>
+  <order>
+    <name>Shmulik</name>
+    <address>Miron 16</address>
+    <mail>skreitntntntntnt@gmail.com</mail>
+    <phone>6546384354</phone>
+    <books>
+      <book>
+        <title>Title 1</title>
+        <author>Author 1</author>
+        <pages>450</pages>
+        <year>2002</year>
+      </book>
+      <book>
+        <title>Title 4</title>
+        <author>Author 4</author>
+        <pages>743</pages>
+        <year>2015</year>
+      </book>
+    </books>
+  </order>
+  <order>
+    <name>a</name>
+    <address>a</address>
+    <mail>a</mail>
+    <phone>a</phone>
+    <books>
+      <book>
+        <title>Title 1</title>
+        <author>Author 1</author>
+        <pages>450</pages>
+        <year>2002</year>
+      </book>
+    </books>
+  </order>
+  <order>
+    <name>a</name>
+    <address>a</address>
+    <mail>a</mail>
+    <phone>a</phone>
+    <books>
+      <book>
+        <title>Title 1</title>
+        <author>Author 1</author>
+        <pages>450</pages>
+        <year>2002</year>
+      </book>
+    </books>
+  </order>
+  <order>
+    <name>lkbj</name>
+    <address>kb</address>
+    <mail>klb</mail>
+    <phone>lkb</phone>
+    <books>
+      <book>
+        <title>Title 3</title>
+        <author>Author 3</author>
+        <pages>153</pages>
+        <year>1886</year>
+      </book>
+      <book>
+        <title>Title 3</title>
+        <author>Author 3</author>
+        <pages>153</pages>
+        <year>1886</year>
+      </book>
+    </books>
+  </order>
+  <order>
+    <name>ugyokul</name>
+    <address>jvklj</address>
+    <mail>reuvenhn@gmail.com</mail>
+    <phone>jhv</phone>
+    <books>
+      <book>
+        <title>new Title</title>
+        <author>Author 2</author>
+        <pages>568</pages>
+        <year>1996</year>
+      </book>
+    </books>
+  </order>
+</orders>

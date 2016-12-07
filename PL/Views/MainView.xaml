@@ -1,0 +1,70 @@
+﻿<UserControl x:Class="PL.Views.MainView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:PL.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <UserControl.Resources>
+        <local:ByteArrayToImageConverter x:Key="imageConverter"/>
+    </UserControl.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="251*"/>
+            <RowDefinition Height="40*"/>
+        </Grid.RowDefinitions>
+        <DataGrid IsReadOnly="True" ItemsSource="{Binding Books, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" SelectedItem="{Binding SelectedBook, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" Grid.Row="1" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTemplateColumn Header="Details" IsReadOnly="True">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <StackPanel>
+                                <DockPanel>
+                                    <TextBlock Text="Title: "/>
+                                    <TextBlock Text="{Binding Title, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"/>
+                                </DockPanel>
+                                <DockPanel>
+                                    <TextBlock Text="Author: "/>
+                                    <TextBlock Text="{Binding Author, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"/>
+                                </DockPanel>
+                                <DockPanel>
+                                    <TextBlock Text="Pages: "/>
+                                    <TextBlock Text="{Binding Pages, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"/>
+                                </DockPanel>
+                                <DockPanel>
+                                    <TextBlock Text="Year Publication: "/>
+                                    <TextBlock Text="{Binding YearPublication, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"/>
+                                </DockPanel>
+                            </StackPanel>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn Header="Image" IsReadOnly="True">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Image Source="{Binding Image, Converter={StaticResource imageConverter}}" />
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+        <GroupBox Header="Search" Margin="5">
+        <DockPanel Grid.Row="0" VerticalAlignment="Stretch" Margin="15" HorizontalAlignment="Center">
+            <TextBox Text="{Binding SearchLine, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" Height="25" Width="200" Grid.Row="0" VerticalAlignment="Center"/>
+            <StackPanel Margin="10,0,0,0" VerticalAlignment="Center">
+                <DockPanel>
+                    <RadioButton GroupName="FilterRB" IsChecked="{Binding IsFilterByTitle, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" VerticalAlignment="Center"/>
+                    <Label Content="Search By Title"/>
+                </DockPanel>
+                <DockPanel>
+                    <RadioButton GroupName="FilterRB" IsChecked="{Binding IsFilterByAuthor, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" VerticalAlignment="Center"/>
+                    <Label Content="Search By Author"/>
+                </DockPanel>
+            </StackPanel>
+        </DockPanel>
+        </GroupBox>
+        <Button Grid.Row="2" Height="25" Width="100" Content="Next" IsEnabled="{Binding IsSelectedBook, UpdateSourceTrigger=PropertyChanged}" Command="{Binding DataContext.Nav1To2, RelativeSource={RelativeSource AncestorType={x:Type Window}}, Mode=OneWay}"/>
+    </Grid>
+</UserControl>

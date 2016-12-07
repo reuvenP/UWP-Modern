@@ -20,6 +20,7 @@ namespace DAL
         {
             _client = new MongoClient();
             _database = _client.GetDatabase("Mivchar_project");
+            //insertImages();
         }
         public static BookRepository Insatnce { get { return instance; } }
         //
@@ -67,5 +68,26 @@ namespace DAL
             var filter = Builders<Book>.Filter.Eq("Id", entity.Id);
             collection.FindOneAndReplace(filter, entity);
         }
+
+        //insert images first time
+        public void insertImages()
+        {
+            string path = @"C:\Code\images";
+            var files = Directory.GetFiles(path);
+            var books = this.GetAll();
+            var numOfFiles = files.Count();
+            int i = 0;
+            var collection = _database.GetCollection<Book>("Books");
+            var newCol = _database.GetCollection<Book>("Booksim");
+            foreach (var book in books)
+            {
+                book.Image = File.ReadAllBytes(files[i++]);
+                newCol.InsertOne(book);
+                if (i == numOfFiles - 1)
+                    i = 0;
+            }
+            
+        }
+        //-------------------------
     }
 }

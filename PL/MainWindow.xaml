@@ -9,7 +9,6 @@
         Title="MainWindow" Height="350" Width="525"
         WindowState="Maximized">
     <Grid>
-        <Controls:TransitioningContentControl Content="{Binding ViewModel, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" Transition="LeftReplace"/>
-       <!-- <ContentControl Content="{Binding ViewModel, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"/> -->
+        <Controls:TransitioningContentControl Content="{Binding ViewModel, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" Transition="RightReplace"/>
     </Grid>
 </Controls:MetroWindow>

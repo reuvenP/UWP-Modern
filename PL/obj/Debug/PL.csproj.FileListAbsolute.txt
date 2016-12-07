@@ -74,3 +74,7 @@ C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K - MahApps.Metro\PL\obj\Debug\Views
 C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K - MahApps.Metro\PL\obj\Debug\PL.g.resources
 C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K - MahApps.Metro\PL\obj\Debug\PL.Properties.Resources.resources
 C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K - MahApps.Metro\PL\obj\Debug\PL.csproj.GenerateResource.Cache
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K\PL\bin\Debug\MahApps.Metro.dll
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K\PL\bin\Debug\System.Windows.Interactivity.dll
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K\PL\bin\Debug\MahApps.Metro.pdb
+C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K\PL\bin\Debug\MahApps.Metro.xml

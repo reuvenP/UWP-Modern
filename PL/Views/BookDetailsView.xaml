@@ -14,7 +14,7 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="100"/>
         </Grid.RowDefinitions>
-        <GroupBox Header="Book Details" Margin="5" Grid.Row="0">
+        <GroupBox Header="Book Details" Margin="5" Grid.Row="0" FontSize="18" FontWeight="Bold">
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="5*"/>
@@ -25,33 +25,33 @@
                 </Grid.RowDefinitions>
                 <Image Grid.Row="0" Source="{Binding SelectedBook.Image, Converter={StaticResource imageConverter}}" />
                 <DockPanel Grid.Row="1" HorizontalAlignment="Center">
-                    <TextBlock Text="Title: " VerticalAlignment="Center"/>
-                    <TextBlock Text="{Binding SelectedBook.Title, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Center"/>
+                    <TextBlock Text="Title:   " VerticalAlignment="Center" FontWeight="Bold" FontSize="18" Foreground="#FFBD197A"/>
+                    <TextBlock Text="{Binding SelectedBook.Title, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Center" FontWeight="Bold" FontSize="14"/>
                 </DockPanel>
                 <DockPanel Grid.Row="2" HorizontalAlignment="Center">
-                    <TextBlock Text="Author: " VerticalAlignment="Center"/>
-                    <TextBlock Text="{Binding SelectedBook.Author, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Center"/>
+                    <TextBlock Text="Author:   " VerticalAlignment="Center" FontWeight="Bold" FontSize="18" Foreground="#FFBD197A"/>
+                    <TextBlock Text="{Binding SelectedBook.Author, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Center" FontWeight="Bold" FontSize="14"/>
                 </DockPanel>
                 <DockPanel Grid.Row="3" HorizontalAlignment="Center">
-                    <TextBlock Text="Pages: " VerticalAlignment="Center"/>
-                    <TextBlock Text="{Binding SelectedBook.Pages, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Center"/>
+                    <TextBlock Text="Pages:   " VerticalAlignment="Center" FontWeight="Bold" FontSize="18" Foreground="#FFBD197A"/>
+                    <TextBlock Text="{Binding SelectedBook.Pages, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Center" FontWeight="Bold" FontSize="14"/>
                 </DockPanel>
                 <DockPanel Grid.Row="4" HorizontalAlignment="Center">
-                    <TextBlock Text="Year Publication: " VerticalAlignment="Center"/>
-                    <TextBlock Text="{Binding SelectedBook.YearPublication, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Center"/>
+                    <TextBlock Text="Year Publication:   " VerticalAlignment="Center" FontWeight="Bold" FontSize="18" Foreground="#FFBD197A"/>
+                    <TextBlock Text="{Binding SelectedBook.YearPublication, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Center" FontWeight="Bold" FontSize="14"/>
                 </DockPanel>
             </Grid>
         </GroupBox>
-        <GroupBox Header="Navigation" Margin="5,0,5,5" Grid.Row="1">
+        <GroupBox Header="Navigation" Margin="5,0,5,5" Grid.Row="1" FontSize="18" FontWeight="Bold">
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
-                <Button Content="Back" Grid.Column="0" Height="25" Width="100" Command="{Binding DataContext.Nav2Back, RelativeSource={RelativeSource AncestorType={x:Type Window}}, Mode=OneWay}"/>
-                <Button Content="Add To Cart" Grid.Column="1" Height="25" Width="100" Command="{Binding DataContext.AddToCartCMD, RelativeSource={RelativeSource AncestorType={x:Type Window}}, Mode=OneWay}"/>
-                <Button Content="Go To Cart" Grid.Column="2" Height="25" Width="100" Command="{Binding DataContext.GoToCartCMD, RelativeSource={RelativeSource AncestorType={x:Type Window}}, Mode=OneWay}"/>
+                <Button ToolTip="Click to move back to the main Window" Background="#FFDC1F1F" Height="75" Width="200"  Content="Back" Grid.Column="0" Command="{Binding DataContext.Nav2Back, RelativeSource={RelativeSource AncestorType={x:Type Window}}, Mode=OneWay}" FontSize="14" FontWeight="Bold"/>
+                <Button ToolTip="Click to Move to add this book to cart" Background="#FF51FF00" Height="75" Width="200"  Content="Add To Cart" Grid.Column="1" Command="{Binding DataContext.AddToCartCMD, RelativeSource={RelativeSource AncestorType={x:Type Window}}, Mode=OneWay}" FontSize="14" FontWeight="Bold"/>
+                <Button ToolTip="Click to Move to the cart Window" Background="#FFFF9700" Height="75" Width="200"  Content="Go To Cart" Grid.Column="2" Command="{Binding DataContext.GoToCartCMD, RelativeSource={RelativeSource AncestorType={x:Type Window}}, Mode=OneWay}" FontSize="14" FontWeight="Bold"/>
             </Grid>
         </GroupBox>
     </Grid>

@@ -6,7 +6,7 @@
              xmlns:local="clr-namespace:PL.Views"
              mc:Ignorable="d" 
              d:DesignHeight="300" d:DesignWidth="300">
-    <Grid>
+    <Grid Background="#FF95B6E6" >
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
@@ -15,20 +15,20 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
         <StackPanel Grid.Row="0">
-            <Label Content="Name:" Margin="20,0,0,0"/>
-            <TextBox Text="{Binding Name, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" Margin="20,0,20,0"/>
+            <Label Content="Name:" Margin="20,0,0,0" FontSize="18" FontWeight="Bold" Foreground="#FFFF1F1F" HorizontalAlignment="Center"/>
+            <TextBox Text="{Binding Name, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" Margin="20,0,20,0" Width="250" HorizontalAlignment="Center"/>
         </StackPanel>
         <StackPanel Grid.Row="1">
-            <Label Content="Address:" Margin="20,0,0,0"/>
-            <TextBox Text="{Binding Address, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" Margin="20,0,20,0"/>
+            <Label Content="Address:" Margin="20,0,0,0" FontSize="18" FontWeight="Bold" Foreground="#FFFF1F1F" HorizontalAlignment="Center"/>
+            <TextBox Text="{Binding Address, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" Margin="20,0,20,0" Width="250" HorizontalAlignment="Center"/>
         </StackPanel>
         <StackPanel Grid.Row="2">
-            <Label Content="Mail:" Margin="20,0,0,0"/>
-            <TextBox Text="{Binding Mail, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" Margin="20,0,20,0"/>
+            <Label Content="Mail:" Margin="20,0,0,0" FontSize="18" FontWeight="Bold" Foreground="#FFFF1F1F" HorizontalAlignment="Center"/>
+            <TextBox Text="{Binding Mail, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" Margin="20,0,20,0" Width="250" HorizontalAlignment="Center"/>
         </StackPanel>
         <StackPanel Grid.Row="3">
-            <Label Content="Phone:" Margin="20,0,0,0"/>
-            <TextBox Text="{Binding Phone, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" Margin="20,0,20,0"/>
+            <Label Content="Phone:" Margin="20,0,0,0" FontSize="18" FontWeight="Bold" Foreground="#FFFF1F1F" HorizontalAlignment="Center"/>
+            <TextBox Text="{Binding Phone, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" Margin="20,0,20,0" Width="250" HorizontalAlignment="Center"/>
         </StackPanel>
 
         <Grid Grid.Row="4">
@@ -36,8 +36,8 @@
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
-            <Button Content="Back" Grid.Column="0" Height="25" Width="100" Command="{Binding DataContext.Nav4Back, RelativeSource={RelativeSource AncestorType={x:Type Window}}, Mode=OneWay}"/>
-            <Button Content="Submit" Grid.Column="1" Height="25" Width="100" Command="{Binding SubmitCMD, UpdateSourceTrigger=PropertyChanged}"/>
+            <Button FontSize="14" FontWeight="Bold" ToolTip="Click to move back to the main Window" Background="#FFFF9700" Height="75" Width="200" Content="Back" Grid.Column="0" Command="{Binding DataContext.Nav4Back, RelativeSource={RelativeSource AncestorType={x:Type Window}}, Mode=OneWay}"/>
+            <Button FontSize="14" FontWeight="Bold" ToolTip="Click to Submit Order" Background="#FF51FF00" Height="75" Width="200" Content="Submit" Grid.Column="1" Command="{Binding SubmitCMD, UpdateSourceTrigger=PropertyChanged}"/>
         </Grid>
     </Grid>
-</UserControl>
+</UserControl> 

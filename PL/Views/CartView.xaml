@@ -8,40 +8,73 @@
              d:DesignHeight="300" d:DesignWidth="300">
     <UserControl.Resources>
         <local:ByteArrayToImageConverter x:Key="imageConverter"/>
+        <Style TargetType="{x:Type DataGridColumnHeader}">
+            <Setter Property="HorizontalContentAlignment"  Value="Center" />
+            <Setter Property="FontSize" Value="18"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Foreground" Value="#FFFF1F1F"/>
+        </Style>
+        <Style TargetType="{x:Type DataGridCell}">
+            <Style.Triggers>
+                <Trigger Property="DataGridCell.IsSelected" Value="True">
+                    <Setter Property="Background" Value="#FFF12B2B" />
+                </Trigger>
+            </Style.Triggers>
+        </Style>
     </UserControl.Resources>
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
             <RowDefinition Height="100"/>
         </Grid.RowDefinitions>
-        <GroupBox Header="Cart" Margin="5" Grid.Row="0">
-            <DataGrid IsReadOnly="True" ItemsSource="{Binding Cart, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" AutoGenerateColumns="False" SelectionMode="Extended" SelectedItem="{Binding SelectedBook, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}">
+        <GroupBox Header="Cart" Margin="5" Grid.Row="0" FontSize="18" FontWeight="Bold">
+            <DataGrid RowBackground="#FFBF3AD4" AlternatingRowBackground="#FF6444F1" IsReadOnly="True" ItemsSource="{Binding Cart, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" AutoGenerateColumns="False" SelectionMode="Extended" SelectedItem="{Binding SelectedBook, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}">
                 <DataGrid.Columns>
-                    <DataGridTemplateColumn Header="Details" IsReadOnly="True">
+                    <DataGridTemplateColumn Header="Title" IsReadOnly="True" Width="310" CanUserSort="True" SortMemberPath="Title" SortDirection="Ascending">
                         <DataGridTemplateColumn.CellTemplate>
                             <DataTemplate>
                                 <StackPanel>
                                     <DockPanel>
-                                        <TextBlock Text="Title: "/>
-                                        <TextBlock Text="{Binding Title, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"/>
-                                    </DockPanel>
-                                    <DockPanel>
-                                        <TextBlock Text="Author: "/>
-                                        <TextBlock Text="{Binding Author, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"/>
-                                    </DockPanel>
-                                    <DockPanel>
-                                        <TextBlock Text="Pages: "/>
-                                        <TextBlock Text="{Binding Pages, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"/>
-                                    </DockPanel>
-                                    <DockPanel>
-                                        <TextBlock Text="Year Publication: "/>
-                                        <TextBlock Text="{Binding YearPublication, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"/>
+                                        <TextBlock Text="{Binding Title, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,30,0,0"/>
                                     </DockPanel>
                                 </StackPanel>
                             </DataTemplate>
                         </DataGridTemplateColumn.CellTemplate>
                     </DataGridTemplateColumn>
-                    <DataGridTemplateColumn Header="Image" IsReadOnly="True">
+                    <DataGridTemplateColumn Header="Author" IsReadOnly="True" Width="310" CanUserSort="True" SortMemberPath="Author">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <StackPanel>
+                                    <DockPanel>
+                                        <TextBlock Text="{Binding Author, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,30,0,0"/>
+                                    </DockPanel>
+                                </StackPanel>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                    <DataGridTemplateColumn Header="Pages" IsReadOnly="True" Width="310" CanUserSort="True" SortMemberPath="Pages">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <StackPanel>
+                                    <DockPanel IsEnabled="False">
+                                        <TextBlock Text="{Binding Pages, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,30,0,0"/>
+                                    </DockPanel>
+                                </StackPanel>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                    <DataGridTemplateColumn Header="Year Publication" IsReadOnly="True" Width="310" CanUserSort="True" SortMemberPath="YearPublication">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <StackPanel>
+                                    <DockPanel>
+                                        <TextBlock Text="{Binding YearPublication, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,30,0,0"/>
+                                    </DockPanel>
+                                </StackPanel>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                    <DataGridTemplateColumn Header="Image" IsReadOnly="True" Width="335">
                         <DataGridTemplateColumn.CellTemplate>
                             <DataTemplate>
                                 <Image Source="{Binding Image, Converter={StaticResource imageConverter}}" Width="100"/>
@@ -51,16 +84,16 @@
                 </DataGrid.Columns>
             </DataGrid>
         </GroupBox>
-        <GroupBox Header="Navigation" Margin="5,0,5,5" Grid.Row="1">
+        <GroupBox Header="Navigation" Margin="5,0,5,5" Grid.Row="1" FontSize="18" FontWeight="Bold">
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
-                <Button Content="Back" Grid.Column="0" Height="25" Width="100" Command="{Binding DataContext.Nav2Back, RelativeSource={RelativeSource AncestorType={x:Type Window}}, Mode=OneWay}"/>
-                <Button Content="Remove From Cart" Grid.Column="1" Height="25" Width="150" Command="{Binding RemoveFromCartCMD, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"/>
-                <Button Content="Submit" Grid.Column="2" Height="25" Width="100" Command="{Binding DataContext.Nav3To4, RelativeSource={RelativeSource AncestorType={x:Type Window}}, Mode=OneWay}"/>
+                <Button FontSize="14" FontWeight="Bold" ToolTip="Click to move back to the main Window" Background="#FFFF9700" Height="75" Width="200" Content="Back" Grid.Column="0" Command="{Binding DataContext.Nav2Back, RelativeSource={RelativeSource AncestorType={x:Type Window}}, Mode=OneWay}"/>
+                <Button FontSize="14" FontWeight="Bold" ToolTip="Click to remove this book from cart" Background="#FFDC1F1F" Height="75" Width="200" Content="Remove From Cart" Grid.Column="1" Command="{Binding RemoveFromCartCMD, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"/>
+                <Button FontSize="14" FontWeight="Bold" ToolTip="Click to Submit Order" Background="#FF51FF00" Height="75" Width="200" Content="Submit" Grid.Column="2" Command="{Binding DataContext.Nav3To4, RelativeSource={RelativeSource AncestorType={x:Type Window}}, Mode=OneWay}"/>
             </Grid>
         </GroupBox>
     </Grid>

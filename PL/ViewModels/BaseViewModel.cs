@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace PL.ViewModels
 {
+    /// <summary>
+    /// abstract class that Inherited from INotifyPropertyChanged
+    /// </summary>
     public abstract class BaseViewModel : INotifyPropertyChanged
     {
         public event PropertyChangedEventHandler PropertyChanged;

@@ -8,6 +8,9 @@ using BE;
 
 namespace PL.ViewModels
 {
+    /// <summary>
+    /// class to connect the model to the view this class Inherited from BaseViewModel that Inherited from INotifyPropertyChanged
+    /// </summary>
     public class CartViewModel : BaseViewModel
     {
         public CartViewModel(ObservableCollection<Book> cart)

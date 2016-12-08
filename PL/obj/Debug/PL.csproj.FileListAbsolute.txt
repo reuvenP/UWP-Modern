@@ -78,3 +78,43 @@ C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K\PL\bin\Debug\MahApps.Metro.dll
 C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K\PL\bin\Debug\System.Windows.Interactivity.dll
 C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K\PL\bin\Debug\MahApps.Metro.pdb
 C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K\PL\bin\Debug\MahApps.Metro.xml
+D:\לימודים שמוליק\שנה ד\סמסטר אלול\הנדסת מערכות חלונות\UWP-Modern\PL\bin\Debug\PL.exe.config
+D:\לימודים שמוליק\שנה ד\סמסטר אלול\הנדסת מערכות חלונות\UWP-Modern\PL\bin\Debug\PL.exe
+D:\לימודים שמוליק\שנה ד\סמסטר אלול\הנדסת מערכות חלונות\UWP-Modern\PL\bin\Debug\PL.pdb
+D:\לימודים שמוליק\שנה ד\סמסטר אלול\הנדסת מערכות חלונות\UWP-Modern\PL\bin\Debug\BE.dll
+D:\לימודים שמוליק\שנה ד\סמסטר אלול\הנדסת מערכות חלונות\UWP-Modern\PL\bin\Debug\BL.dll
+D:\לימודים שמוליק\שנה ד\סמסטר אלול\הנדסת מערכות חלונות\UWP-Modern\PL\bin\Debug\MahApps.Metro.dll
+D:\לימודים שמוליק\שנה ד\סמסטר אלול\הנדסת מערכות חלונות\UWP-Modern\PL\bin\Debug\MongoDB.Bson.dll
+D:\לימודים שמוליק\שנה ד\סמסטר אלול\הנדסת מערכות חלונות\UWP-Modern\PL\bin\Debug\System.Windows.Interactivity.dll
+D:\לימודים שמוליק\שנה ד\סמסטר אלול\הנדסת מערכות חלונות\UWP-Modern\PL\bin\Debug\DAL.dll
+D:\לימודים שמוליק\שנה ד\סמסטר אלול\הנדסת מערכות חלונות\UWP-Modern\PL\bin\Debug\MongoDB.Driver.dll
+D:\לימודים שמוליק\שנה ד\סמסטר אלול\הנדסת מערכות חלונות\UWP-Modern\PL\bin\Debug\MongoDB.Driver.Core.dll
+D:\לימודים שמוליק\שנה ד\סמסטר אלול\הנדסת מערכות חלונות\UWP-Modern\PL\bin\Debug\BE.pdb
+D:\לימודים שמוליק\שנה ד\סמסטר אלול\הנדסת מערכות חלונות\UWP-Modern\PL\bin\Debug\BL.pdb
+D:\לימודים שמוליק\שנה ד\סמסטר אלול\הנדסת מערכות חלונות\UWP-Modern\PL\bin\Debug\MahApps.Metro.pdb
+D:\לימודים שמוליק\שנה ד\סמסטר אלול\הנדסת מערכות חלונות\UWP-Modern\PL\bin\Debug\MahApps.Metro.xml
+D:\לימודים שמוליק\שנה ד\סמסטר אלול\הנדסת מערכות חלונות\UWP-Modern\PL\bin\Debug\MongoDB.Bson.xml
+D:\לימודים שמוליק\שנה ד\סמסטר אלול\הנדסת מערכות חלונות\UWP-Modern\PL\bin\Debug\DAL.pdb
+D:\לימודים שמוליק\שנה ד\סמסטר אלול\הנדסת מערכות חלונות\UWP-Modern\PL\bin\Debug\MongoDB.Driver.xml
+D:\לימודים שמוליק\שנה ד\סמסטר אלול\הנדסת מערכות חלונות\UWP-Modern\PL\bin\Debug\MongoDB.Driver.Core.xml
+D:\לימודים שמוליק\שנה ד\סמסטר אלול\הנדסת מערכות חלונות\UWP-Modern\PL\obj\Debug\PL.csprojResolveAssemblyReference.cache
+D:\לימודים שמוליק\שנה ד\סמסטר אלול\הנדסת מערכות חלונות\UWP-Modern\PL\obj\Debug\MainWindow.g.cs
+D:\לימודים שמוליק\שנה ד\סמסטר אלול\הנדסת מערכות חלונות\UWP-Modern\PL\obj\Debug\Views\BookDetailsView.g.cs
+D:\לימודים שמוליק\שנה ד\סמסטר אלול\הנדסת מערכות חלונות\UWP-Modern\PL\obj\Debug\Views\CartView.g.cs
+D:\לימודים שמוליק\שנה ד\סמסטר אלול\הנדסת מערכות חלונות\UWP-Modern\PL\obj\Debug\Views\MainView.g.cs
+D:\לימודים שמוליק\שנה ד\סמסטר אלול\הנדסת מערכות חלונות\UWP-Modern\PL\obj\Debug\Views\SubmitView.g.cs
+D:\לימודים שמוליק\שנה ד\סמסטר אלול\הנדסת מערכות חלונות\UWP-Modern\PL\obj\Debug\App.g.cs
+D:\לימודים שמוליק\שנה ד\סמסטר אלול\הנדסת מערכות חלונות\UWP-Modern\PL\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\לימודים שמוליק\שנה ד\סמסטר אלול\הנדסת מערכות חלונות\UWP-Modern\PL\obj\Debug\PL_MarkupCompile.cache
+D:\לימודים שמוליק\שנה ד\סמסטר אלול\הנדסת מערכות חלונות\UWP-Modern\PL\obj\Debug\PL_MarkupCompile.lref
+D:\לימודים שמוליק\שנה ד\סמסטר אלול\הנדסת מערכות חלונות\UWP-Modern\PL\obj\Debug\App.baml
+D:\לימודים שמוליק\שנה ד\סמסטר אלול\הנדסת מערכות חלונות\UWP-Modern\PL\obj\Debug\MainWindow.baml
+D:\לימודים שמוליק\שנה ד\סמסטר אלול\הנדסת מערכות חלונות\UWP-Modern\PL\obj\Debug\Views\BookDetailsView.baml
+D:\לימודים שמוליק\שנה ד\סמסטר אלול\הנדסת מערכות חלונות\UWP-Modern\PL\obj\Debug\Views\CartView.baml
+D:\לימודים שמוליק\שנה ד\סמסטר אלול\הנדסת מערכות חלונות\UWP-Modern\PL\obj\Debug\Views\MainView.baml
+D:\לימודים שמוליק\שנה ד\סמסטר אלול\הנדסת מערכות חלונות\UWP-Modern\PL\obj\Debug\Views\SubmitView.baml
+D:\לימודים שמוליק\שנה ד\סמסטר אלול\הנדסת מערכות חלונות\UWP-Modern\PL\obj\Debug\PL.g.resources
+D:\לימודים שמוליק\שנה ד\סמסטר אלול\הנדסת מערכות חלונות\UWP-Modern\PL\obj\Debug\PL.Properties.Resources.resources
+D:\לימודים שמוליק\שנה ד\סמסטר אלול\הנדסת מערכות חלונות\UWP-Modern\PL\obj\Debug\PL.csproj.GenerateResource.Cache
+D:\לימודים שמוליק\שנה ד\סמסטר אלול\הנדסת מערכות חלונות\UWP-Modern\PL\obj\Debug\PL.exe
+D:\לימודים שמוליק\שנה ד\סמסטר אלול\הנדסת מערכות חלונות\UWP-Modern\PL\obj\Debug\PL.pdb

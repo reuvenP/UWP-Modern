@@ -11,6 +11,9 @@ using System.IO;
 
 namespace DAL
 {
+    /// <summary>
+    /// class to implemnt IRepository interface for BookRepository
+    /// </summary>
     public sealed class BookRepository : IRepository<Book>
     {
         //
@@ -27,6 +30,10 @@ namespace DAL
         private static IMongoClient _client;
         private static IMongoDatabase _database;
 
+        /// <summary>
+        /// delete Book from DB
+        /// </summary>
+        /// <param name="entity">Book object</param>
         public void Delete(Book entity)
         {
             var collection = _database.GetCollection<Book>("Books");
@@ -34,6 +41,10 @@ namespace DAL
             var book = collection.DeleteOne(filter);
         }
 
+        /// <summary>
+        /// return all the Books as list
+        /// </summary>
+        /// <returns></returns>
         public IEnumerable<Book> GetAll()
         {
             var collection = _database.GetCollection<Book>("Books");
@@ -41,12 +52,23 @@ namespace DAL
             return books;
         }
 
+        /// <summary>
+        /// return all Books that fulfill the conditions
+        /// </summary>
+        /// <param name="condition"></param>
+        /// <returns></returns>
         public IEnumerable<Book> GetAllByCondition(Predicate<Book> condition)
         {
             var allBooks = this.GetAll();
             return allBooks.Where(x => condition(x));
         }
 
+
+        /// <summary>
+        /// return Book by ID
+        /// </summary>
+        /// <param name="id">id number</param>
+        /// <returns></returns>
         public Book GetById(string id)
         {
             var obId = ObjectId.Parse(id);
@@ -56,12 +78,20 @@ namespace DAL
             return book;
         }
 
+        /// <summary>
+        /// svae the Book to the DB
+        /// </summary>
+        /// <param name="entity">Book Object</param>
         public void Save(Book entity)
         {
             var collection = _database.GetCollection<Book>("Books");
             collection.InsertOne(entity);
         }
 
+        /// <summary>
+        /// update the Book in DB
+        /// </summary>
+        /// <param name="entity">Book Object</param>
         public void Update(Book entity)
         {
             var collection = _database.GetCollection<Book>("Books");
@@ -69,7 +99,10 @@ namespace DAL
             collection.FindOneAndReplace(filter, entity);
         }
 
-        //insert images first time
+
+        /// <summary>
+        /// insert images first time
+        /// </summary>
         public void insertImages()
         {
             string path = @"C:\Code\images";

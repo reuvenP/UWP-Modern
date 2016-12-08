@@ -7,6 +7,9 @@ using MongoDB.Bson;
 
 namespace BE
 {
+    /// <summary>
+    /// class for all kind of object in BE
+    /// </summary>
     public abstract class IEntity
     {
         public ObjectId Id { get; set; }

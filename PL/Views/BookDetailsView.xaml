@@ -9,7 +9,7 @@
     <UserControl.Resources>
         <local:ByteArrayToImageConverter x:Key="imageConverter"/>
     </UserControl.Resources>
-    <Grid>
+    <Grid Background="#FFD8D8D8" OpacityMask="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" >
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
             <RowDefinition Height="100"/>
@@ -49,9 +49,9 @@
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
-                <Button ToolTip="Click to move back to the main Window" Background="#FFDC1F1F" Height="75" Width="200"  Content="Back" Grid.Column="0" Command="{Binding DataContext.Nav2Back, RelativeSource={RelativeSource AncestorType={x:Type Window}}, Mode=OneWay}" FontSize="14" FontWeight="Bold"/>
-                <Button ToolTip="Click to Move to add this book to cart" Background="#FF51FF00" Height="75" Width="200"  Content="Add To Cart" Grid.Column="1" Command="{Binding DataContext.AddToCartCMD, RelativeSource={RelativeSource AncestorType={x:Type Window}}, Mode=OneWay}" FontSize="14" FontWeight="Bold"/>
-                <Button ToolTip="Click to Move to the cart Window" Background="#FFFF9700" Height="75" Width="200"  Content="Go To Cart" Grid.Column="2" Command="{Binding DataContext.GoToCartCMD, RelativeSource={RelativeSource AncestorType={x:Type Window}}, Mode=OneWay}" FontSize="14" FontWeight="Bold"/>
+                <Button ToolTip="Click to move back to the main Window" Height="50" Width="150"  Content="Back" Grid.Column="0" Command="{Binding DataContext.Nav2Back, RelativeSource={RelativeSource AncestorType={x:Type Window}}, Mode=OneWay}" FontSize="14" FontWeight="Bold"/>
+                <Button ToolTip="Click to Move to add this book to cart" Height="50" Width="150"  Content="Add To Cart" Grid.Column="1" Command="{Binding DataContext.AddToCartCMD, RelativeSource={RelativeSource AncestorType={x:Type Window}}, Mode=OneWay}" FontSize="14" FontWeight="Bold"/>
+                <Button ToolTip="Click to Move to the cart Window" Height="50" Width="150"  Content="Go To Cart" Grid.Column="2" Command="{Binding DataContext.GoToCartCMD, RelativeSource={RelativeSource AncestorType={x:Type Window}}, Mode=OneWay}" FontSize="14" FontWeight="Bold"/>
             </Grid>
         </GroupBox>
     </Grid>

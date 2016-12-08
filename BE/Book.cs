@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace BE
 {
+    /// <summary>
+    /// class that represent Book Object
+    /// </summary>
     public class Book : IEntity
     {
         public string Title { get; set; }

@@ -14,3 +14,19 @@ C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K\BL\bin\Debug\MongoDB.Driver.Core.x
 C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache
 C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K\BL\obj\Debug\BL.dll
 C:\Code\WPF_project\Mivchar_Reuven_P_Shmuel_K\BL\obj\Debug\BL.pdb
+D:\לימודים שמוליק\שנה ד\סמסטר אלול\הנדסת מערכות חלונות\UWP-Modern\BL\bin\Debug\BL.dll.config
+D:\לימודים שמוליק\שנה ד\סמסטר אלול\הנדסת מערכות חלונות\UWP-Modern\BL\bin\Debug\BL.dll
+D:\לימודים שמוליק\שנה ד\סמסטר אלול\הנדסת מערכות חלונות\UWP-Modern\BL\bin\Debug\BL.pdb
+D:\לימודים שמוליק\שנה ד\סמסטר אלול\הנדסת מערכות חלונות\UWP-Modern\BL\bin\Debug\BE.dll
+D:\לימודים שמוליק\שנה ד\סמסטר אלול\הנדסת מערכות חלונות\UWP-Modern\BL\bin\Debug\DAL.dll
+D:\לימודים שמוליק\שנה ד\סמסטר אלול\הנדסת מערכות חלונות\UWP-Modern\BL\bin\Debug\MongoDB.Bson.dll
+D:\לימודים שמוליק\שנה ד\סמסטר אלול\הנדסת מערכות חלונות\UWP-Modern\BL\bin\Debug\MongoDB.Driver.dll
+D:\לימודים שמוליק\שנה ד\סמסטר אלול\הנדסת מערכות חלונות\UWP-Modern\BL\bin\Debug\MongoDB.Driver.Core.dll
+D:\לימודים שמוליק\שנה ד\סמסטר אלול\הנדסת מערכות חלונות\UWP-Modern\BL\bin\Debug\BE.pdb
+D:\לימודים שמוליק\שנה ד\סמסטר אלול\הנדסת מערכות חלונות\UWP-Modern\BL\bin\Debug\DAL.pdb
+D:\לימודים שמוליק\שנה ד\סמסטר אלול\הנדסת מערכות חלונות\UWP-Modern\BL\bin\Debug\MongoDB.Bson.xml
+D:\לימודים שמוליק\שנה ד\סמסטר אלול\הנדסת מערכות חלונות\UWP-Modern\BL\bin\Debug\MongoDB.Driver.xml
+D:\לימודים שמוליק\שנה ד\סמסטר אלול\הנדסת מערכות חלונות\UWP-Modern\BL\bin\Debug\MongoDB.Driver.Core.xml
+D:\לימודים שמוליק\שנה ד\סמסטר אלול\הנדסת מערכות חלונות\UWP-Modern\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache
+D:\לימודים שמוליק\שנה ד\סמסטר אלול\הנדסת מערכות חלונות\UWP-Modern\BL\obj\Debug\BL.dll
+D:\לימודים שמוליק\שנה ד\סמסטר אלול\הנדסת מערכות חלונות\UWP-Modern\BL\obj\Debug\BL.pdb

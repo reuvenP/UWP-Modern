@@ -17,7 +17,7 @@
         <Style TargetType="{x:Type DataGridCell}">
             <Style.Triggers>
                 <Trigger Property="DataGridCell.IsSelected" Value="True">
-                    <Setter Property="Background" Value="#FFF12B2B" />
+                    <Setter Property="Background" Value="#FFFF8484" />
                 </Trigger>
             </Style.Triggers>
         </Style>
@@ -28,7 +28,7 @@
             <RowDefinition Height="100"/>
         </Grid.RowDefinitions>
         <GroupBox Header="Cart" Margin="5" Grid.Row="0" FontSize="18" FontWeight="Bold">
-            <DataGrid RowBackground="#FFBF3AD4" AlternatingRowBackground="#FF6444F1" IsReadOnly="True" ItemsSource="{Binding Cart, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" AutoGenerateColumns="False" SelectionMode="Extended" SelectedItem="{Binding SelectedBook, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}">
+            <DataGrid RowBackground="#FFA1B2D8" AlternatingRowBackground="#FFD7CEFF" IsReadOnly="True" ItemsSource="{Binding Cart, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" AutoGenerateColumns="False" SelectionMode="Extended" SelectedItem="{Binding SelectedBook, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}">
                 <DataGrid.Columns>
                     <DataGridTemplateColumn Header="Title" IsReadOnly="True" Width="310" CanUserSort="True" SortMemberPath="Title" SortDirection="Ascending">
                         <DataGridTemplateColumn.CellTemplate>
@@ -91,9 +91,9 @@
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
-                <Button FontSize="14" FontWeight="Bold" ToolTip="Click to move back to the main Window" Background="#FFFF9700" Height="75" Width="200" Content="Back" Grid.Column="0" Command="{Binding DataContext.Nav2Back, RelativeSource={RelativeSource AncestorType={x:Type Window}}, Mode=OneWay}"/>
-                <Button FontSize="14" FontWeight="Bold" ToolTip="Click to remove this book from cart" Background="#FFDC1F1F" Height="75" Width="200" Content="Remove From Cart" Grid.Column="1" Command="{Binding RemoveFromCartCMD, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"/>
-                <Button FontSize="14" FontWeight="Bold" ToolTip="Click to Submit Order" Background="#FF51FF00" Height="75" Width="200" Content="Submit" Grid.Column="2" Command="{Binding DataContext.Nav3To4, RelativeSource={RelativeSource AncestorType={x:Type Window}}, Mode=OneWay}"/>
+                <Button FontSize="14" FontWeight="Bold" ToolTip="Click to move back to the main Window" Height="50" Width="150" Content="Back" Grid.Column="0" Command="{Binding DataContext.Nav2Back, RelativeSource={RelativeSource AncestorType={x:Type Window}}, Mode=OneWay}"/>
+                <Button FontSize="14" FontWeight="Bold" ToolTip="Click to remove this book from cart" Height="50" Width="150" Content="Remove From Cart" Grid.Column="1" Command="{Binding RemoveFromCartCMD, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"/>
+                <Button FontSize="14" FontWeight="Bold" ToolTip="Click to Submit Order" Height="50" Width="150" Content="Submit" Grid.Column="2" Command="{Binding DataContext.Nav3To4, RelativeSource={RelativeSource AncestorType={x:Type Window}}, Mode=OneWay}"/>
             </Grid>
         </GroupBox>
     </Grid>

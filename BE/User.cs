@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace BE
 {
+    /// <summary>
+    /// class that represent User Object
+    /// </summary>
     public class User : IEntity
     {
         public string Name { get; set; }

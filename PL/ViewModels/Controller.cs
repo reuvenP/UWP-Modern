@@ -10,6 +10,9 @@ using System.Windows;
 
 namespace PL.ViewModels
 {
+    /// <summary>
+    /// class to controll the view this class Inherited from BaseViewModel that Inherited from INotifyPropertyChanged
+    /// </summary>
     public class Controller : BaseViewModel
     {
         private static int _currentScreen = 1;
